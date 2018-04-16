@@ -22,3 +22,7 @@ This script works by authenticating with BG&E, going to the Green Button
 export URL, and requesting a CSV of a range of days. The zip is downloaded,
 opened and processed with Python's CSV library. This export then occurs once
 per hour.
+
+## And now, our feature presentation
+
+![cheeky movie](https://raw.githubusercontent.com/hank/greenbuttonblaster/master/bgescrape.gif)

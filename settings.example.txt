@@ -1,3 +1,4 @@
+[DEFAULT]
 # Username for BG&E
 username = mahusername
 # Password for BG&E

@@ -1,0 +1,6 @@
+# Username for BG&E
+username = mahusername
+# Password for BG&E
+password = mahpassword
+# Temporary directory where zip files will be downloaded
+tmp_output_dir = c:\Windows\Temp\bge

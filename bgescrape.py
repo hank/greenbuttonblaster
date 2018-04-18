@@ -132,7 +132,7 @@ def run():
     driver = buildDriver(tmp_output_dir)
 
     scheduler = BackgroundScheduler()
-    scheduler.add_job(initiateRequest, 'interval', minutes=2,
+    scheduler.add_job(initiateRequest, 'interval', minutes=20,
         args=(driver, username, password, tmp_output_dir))
 
     # Run the first job
